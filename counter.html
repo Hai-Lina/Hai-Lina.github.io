@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+vvv<!DOCTYPE HTML>
 <!--
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -69,7 +69,7 @@
 								<header style="text-align:center">
 								    <p>Therefore the current project aims at identifying types of 
 								    counter speech and investigating their effectiveness.</p>
-							    </header>
+							       </header>
 								
 								<hr />
 								
@@ -90,15 +90,36 @@
 								
 								<h3>Curating a dataset of counter speech strategies</h3>
 								<p style="text-align:justify">Based on Tweets of this dataset we developed a classification 
-								scheme of counter speech strategies. The classification scheme 
-								is grounded in our data and was developed by a team of German 
-								speaking, politically aware psychologists. It comprises for 
-								dimensions, namely counter speech strategy, activation of in-vs-out-group 
-								concepts, social psychological goal, and presence or absence of hateful speech.
+								scheme of counter speech strategies. The classification scheme is grounded in our data and 
+								was developed by a team of German speaking, politically aware psychologists. It comprises 
+								four dimensions, namely argumentative strategy, activation of in-vs-outgroup concepts, social 
+								psychological goal, and presence or absence of hateful speech.</p>
+
+								<p style="text-align:justify">The classification scheme constituted the basis to train four 
+								machine learning classifiers, accordingly. We used an iterative training approach relying on 
+								"confident examples", i.e., examples where human annotators or human an preliminary classifier 
+								agree. This allowed us to achieve high classification accuracy despite noisy and ambiguous data.</p>
+
+								<hr />
+								
+								<h3>Results sneak peak: Raising simple opinions is beneficial, while raising any in- and outgrip thinking is not.</h3>
+								<p><span class="image left"><img src="images/matching-ardl.png" alt="" style="width:90%"/></span></p>
+								<p style="text-align:justify">We analyzed over 130,000 discussions on German Twitter between 2015 and 2018 with over 
+								one million tweets and 130,000 distinct users. We investigated the relationship between argumentative strategy, 
+								in- and outgroup thinking, social psychological goal and emotions on quality of discourse represented by hate speech, 
+								toxicity, extremity or speech and speakers. We did so on the micro level using matching, and on the meso and macro 
+								level using autoregressive distributed lag modelling (ARDL) (see image on the left).</p>
+
+								<p><span class="image right"><img src="images/counter-sneak.png" alt="" style="width:90%"/></span></p>
+								<p style="text-align:justify">The plot on the right gives you a sneak peak into the analyses on hate speech on the meso 
+								level. Raising simple opinions, not necessary factual, but also without insults, seems to have the most effect on 
+								reducing hate speech int he following conversation. On the other hand, mentioning all kinds of groups is detrimental. 
+								Similarly, if a text is emotional, I increases hate in the following conversation, for positive emotions such as pride 
+								and joy, as well as negative emotions such as fear.</p>
+
 								<header style="text-align:center">
-								    <p>Expect analyses to be coming soon...</p>
-							    </header>
-								</p>
+								    <p>Our preprint is full of interesting insights! For more detail, please visit <a href="https://arxiv.org/abs/2303.00357">arXiv.</a></p>
+							       </header>
 							</div>
 						</section>
 					</article>
